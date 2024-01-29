@@ -8,7 +8,10 @@ body {
   left: 0;
   bottom: 0;
   padding: 12px;
-  width: 300px;
+  width: 350px;
+  display: grid;
+  gap: 5px;
+  grid-template-rows: 200px;
 }
 
 .sidebar__navigation {
@@ -19,7 +22,6 @@ body {
 
 .sidebar__navigation .logo {
   background-color: #121212;
-  display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
 }
@@ -41,5 +43,29 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca {
+  background-color: #121212;
+  display: flex;
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+
+.biblioteca__opcoes {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  width: 100%;
+  padding: 16px 16px 0 16px;
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.biblioteca__opcoes .subtitle {
+  width: 100%;
 }
