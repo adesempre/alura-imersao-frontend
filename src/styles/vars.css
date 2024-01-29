@@ -1,0 +1,23 @@
+:root {
+  /* Fontes */
+  --font-padrao: "DM Sans", sans-serif;
+  /* Cores */
+  --color-primary: #b3b3b3;
+  --color-secundary: #a7a7a7;
+  --color-page: #ffffff;
+  --color-button-primary: #ffffff;
+  --color-button-secundary: #000000;
+  --color-button-destak: #ffffff;
+  --color-button-nav: #ffffff;
+
+  --bg-page: #000000;
+  --bg-button-primary: #000000;
+  --bg-button-secundary: #ffffff;
+  --bg-button-destak: transparent;
+  --bg-button-nav: #070707;
+  --bg-card: #121212;
+  --bg-subcard: #242424;
+  --bg-search-card: #ffffff;
+
+  --button-border: 1px solid #878787;
+}
